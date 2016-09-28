@@ -1,0 +1,21 @@
+{
+  "name": "Mixin",
+  "version": "1.0.0",
+  "main": "js/Mixin",
+  "plugins": [
+    "lotus-coffee"
+  ],
+  "scripts": {
+    "build": "coffee -cb -o js src",
+    "postinstall": "postinstall-build js 'npm run build'"
+  },
+  "dependencies": {
+    "Property": "aleclarson/Property#1.2.0",
+    "cloneArgs": "aleclarson/cloneArgs#1.0.0",
+    "postinstall-build": "0.2.x",
+    "sync": "aleclarson/sync#1.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.x"
+  }
+}
