@@ -4,7 +4,6 @@
 assertType = require "assertType"
 cloneArgs = require "cloneArgs"
 isDev = require "isDev"
-sync = require "sync"
 
 exports.create = (config) ->
 
