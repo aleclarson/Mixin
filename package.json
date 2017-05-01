@@ -12,7 +12,7 @@
   "dependencies": {
     "Property": "aleclarson/Property#1.2.4",
     "assertType": "aleclarson/assertType#2.0.2",
-    "cloneArgs": "aleclarson/cloneArgs#1.0.0",
-    "isDev": "aleclarson/isDev#2.0.0"
+    "isDev": "aleclarson/isDev#2.0.0",
+    "sliceArray": "aleclarson/sliceArray#1.0.0"
   }
 }

@@ -2,7 +2,7 @@
 {frozen} = require "Property"
 
 assertType = require "assertType"
-cloneArgs = require "cloneArgs"
+sliceArray = require "sliceArray"
 isDev = require "isDev"
 
 exports.create = (config) ->
@@ -40,6 +40,6 @@ exports.create = (config) ->
   return mixinType
 
 createMethod = (key) -> () ->
-  args = cloneArgs arguments
+  args = sliceArray arguments
   @_calls.push {key, args}
   return
